@@ -1,11 +1,14 @@
-# AR Model Viewer #
+# EcoApp #
 
 <p align="center">
-  <img height="200" width="250" src="images/logo.png">
+  <img height="155" width="475" src="images/logo.png">
 </p>
 
-## Requisitos / Requirements 📋
-* Android 6.0+ (API > 23)
+## Requisitos mínimos / Minimum requirements 📋
+* Android 6.0 Marshmallow (API >= 23)
+
+## Requisitos recomendados / Recommended requirements 📋
+* Android 8.0 Oreo (API >= 26)
 
 ## Instalación / Installation 🚀
 * Descarga el último lanzamiento e instálalo en tu móvil / Download last release and install it on your smartphone.
