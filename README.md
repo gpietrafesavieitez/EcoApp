@@ -1,13 +1,13 @@
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
+*** make this better, please fork the EcoApp and create a pull request or simply open
 *** an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 ***
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
+*** gpietrafesavieitez, EcoApp, twitter_handle, email
 -->
 
 
@@ -34,7 +34,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
+  <a href="https://github.com/gpietrafesavieitez/EcoApp">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -43,14 +43,14 @@
   <p align="center">
     YOUR_SHORT_DESCRIPTION
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/gpietrafesavieitez/EcoApp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://github.com/gpietrafesavieitez/EcoApp">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/gpietrafesavieitez/EcoApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/gpietrafesavieitez/EcoApp/issues">Request Feature</a>
   </p>
 </p>
 
@@ -80,7 +80,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+`gpietrafesavieitez`, `EcoApp`, `twitter_handle`, `email`
 
 
 ### Built With
@@ -106,9 +106,9 @@ npm install npm@latest -g
 
 ### Installation
  
-1. Clone the repo
+1. Clone the EcoApp
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/gpietrafesavieitez/EcoApp.git
 ```
 2. Install NPM packages
 ```sh
@@ -129,7 +129,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/gpietrafesavieitez/EcoApp/issues) for a list of proposed features (and known issues).
 
 
 
@@ -156,9 +156,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - gpietrafesavieitez@danielcastelao.org
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/gpietrafesavieitez/EcoApp](https://github.com/gpietrafesavieitez/EcoApp)
 
 
 
