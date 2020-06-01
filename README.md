@@ -1,12 +1,12 @@
 # EcoApp #
 
 <p align="center">
-  <img height="155" width="475" src="images/logo.png">
+  <img height="125" width="425" src="images/logo.png">
 </p>
 
 ## Requisitos / Requirements 📋
-* Minimum: Android 6.0 Marshmallow (API >= 23)
-* Recommended: Android 8.0 Oreo (API >= 26)
+* Minimum - Android 6.0 Marshmallow (API >= 23)
+* Recommended - Android 8.0 Oreo (API >= 26)
 
 ## Instalación / Installation 🚀
 * Descarga el último lanzamiento e instálalo en tu móvil / Download last release and install it on your smartphone.
