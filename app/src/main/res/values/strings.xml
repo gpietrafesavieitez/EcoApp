@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">EcoApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_history">History</string>
+
+    <string name="action_language">Language</string>
+    <string name="format">Format</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="flash">Flash</string>
+    <string name="focus">Autofocus</string>
+    <string name="scan_clue">Place your camera above the barcode or QR of the product to scan</string>
+    <string name="guest_alert">Guests users can\'t add products</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_product_found">We don\'t have this product. Would you like to add it?</string>
+
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days">days</string>
+    <string name="empty_field">Field can\'t be empty</string>
+    <string name="long_name">Name is too long</string>
+
+    <string name="add_success">Product added successfuly, pending moderation</string>
+    <string name="alert_photo">Please, upload a photo of the product</string>
+    <string name="explanation">This function needs camera permissions to work correctly</string>
+    <string name="ok">OK</string>
+    <string name="language">Change language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="you">You</string>
+    <string name="upload_product">Upload product</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="product_name">Product name</string>
+    <string name="user" translatable="false">User</string>
+    <string name="upload_picture">Upload a picture</string>
+    <string name="open_camera">Open camera</string>
+
+    <string name="unsupported">Your device doesn\'t support this feature</string>
+    <string name="no_history">Your history is empty</string>
+    <string name="activity_scan_title">Scanner</string>
+    <string name="activity_fetch_title">Product</string>
+    <string name="activity_attach_title">Upload</string>
+    <string name="at_least_one_component">Please, select at least one component</string>
+    <string name="search_components">Search components</string>
+    <string name="guest_info">You\'re as a guest</string>
+
+
+    <string name="explanation_1">This component should be recycled in the YELLOW container for PLASTIC</string>
+    <string name="explanation_2">This component should be recycled in the GREEN container for GLASS</string>
+    <string name="explanation_3">This component should be recycled in the BLUE container for PAPER</string>
+    <string name="explanation_4">This component should be recycled in the BROWN container for ORGANIC</string>
+    <string name="explanation_5">5This component should be recycled in the RED container for E-WASTE</string>
+    <string name="explanation_6">This component should be recycled in the GREY container for GENERAL BIODEGRADABLE WASTE</string>
+    <string name="explanation_7">This component shoud be recycled in RECYCLING CENTER for general purpose</string>
+    <string name="explanation_8">This component shoud be recycled in a RECYCLING CENTER FOR BATTERIES</string>
+    <string name="explanation_9">This component shoud be recycled in a RECYCLING CENTER FOR OIL</string>
+    <string name="explanation_10">This component shoud be recycled in a RECYCLING CENTER FOR CLOTHES</string>
+
+
+    <string name="explanation_extra">" Color could be different depending on your region"</string>
+    <string name="explanation_unknown">Unknown recycle type</string>
+
+
+    <string name="error_json">Formatting error</string>
+    <string name="no_products">No products found</string>
+    <string name="error_connection">Connection error</string>
+    <string name="error_attach">Error when trying to add product</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="title_view">Components</string>
+    <string name="title_attach">Product</string>
+    <string name="error_upload">Error uploading</string>
+    <string name="hint_barcode">Enter barcode or QR</string>
+    <string name="no_components">No components found</string>
+    <string name="long_code">Code is too long</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_login">Sign in with Google</string>
+    <string name="error_duplicate">Product already exists</string>
+</resources>

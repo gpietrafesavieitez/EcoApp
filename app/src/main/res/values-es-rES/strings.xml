@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoApp</string>
+
+    <string name="title_home">Inicio</string>
+    <string name="title_scan">Escanear</string>
+    <string name="title_history">Historial</string>
+
+    <string name="format">Formato</string>
+    <string name="email">Correo electrónico</string>
+    <string name="pass">Contraseña</string>
+    <string name="flash">Linterna</string>
+    <string name="focus">Enfoque</string>
+
+    <string name="scan_clue">" Enfoca el código de barras o QR con la cámara para escanearlo"</string>
+    <string name="guest_alert">Los invitados no pueden subir productos</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+
+    <string name="no_product_found">No tenemos este producto. ¿Deseas añadirlo?</string>
+
+    <string name="today">hoy</string>
+    <string name="yesterday">ayer</string>
+    <string name="days">días</string>
+    <string name="empty_field">El campo no puede estar vacío</string>
+    <string name="long_name">Nombre demasiado largo</string>
+
+    <string name="add_success">Producto añadido satisfactoriamente, pendiente de moderación</string>
+    <string name="alert_photo">Porfavor, toma una foto del producto</string>
+    <string name="explanation">Esta función necesita permisos de la cámara para funcionar</string>
+    <string name="ok">vale</string>
+    <string name="spanish">Español</string>
+    <string name="english">Inglés</string>
+    <string name="language">Cambiar idioma</string>
+    <string name="you">Tú</string>
+    <string name="upload_product">Subir producto</string>
+    <string name="open_gallery">Abrir galería</string>
+    <string name="product_name">Nombre del producto</string>
+    <string name="upload_picture">Sube una foto</string>
+    <string name="open_camera">Abrir cámara</string>
+
+    <string name="unsupported">Tu dispositivo no soporta esta funcionalidad</string>
+    <string name="no_history">Tu historial está vacío</string>
+    <string name="activity_scan_title">Escáner</string>
+    <string name="activity_fetch_title">Producto</string>
+    <string name="activity_attach_title">Subir</string>
+    <string name="at_least_one_component">Porfavor, selecciona al menos un componente</string>
+    <string name="search_components">Buscar componentes</string>
+    <string name="guest_info">Estás como usuario invitado</string>
+
+
+    <string name="explanation_1">Este componente debería ser reciclado en el contenedor AMARILLO para ENVASES</string>
+    <string name="explanation_2">Este componente debería ser reciclado en el contenedor VERDE para VIDRIO</string>
+    <string name="explanation_3">Este componente debería ser reciclado en el contenedor AZUL para PAPEL</string>
+    <string name="explanation_4">Este componente debería ser reciclado en el contenedor MARRÓN para ORGÁNICO</string>
+    <string name="explanation_5">Este componente debería ser reciclado en el contenedor ROJO para DESECHOS PELIGROSOS</string>
+    <string name="explanation_6">Este componente debería ser reciclado en el contenedor GRIS para RESTOS BIODEGRADABLES EN GENERAL</string>
+    <string name="explanation_7">Este componente debería ser reciclado en un PUNTO LIMPIO genérico</string>
+    <string name="explanation_8">Este componente debería ser reciclado en un PUNTO LIMPIO especial para PILAS</string>
+    <string name="explanation_9">Este componente debería ser reciclado en un PUNTO LIMPIO especial para ACEITE</string>
+    <string name="explanation_10">Este componente debería ser reciclado en un PUNTO LIMPIO especial para ROPA</string>
+
+    <string name="explanation_extra">El color puede cambiar según tu región</string>
+    <string name="explanation_unknown">Tipo de reciclaje desconocido</string>
+
+    <string name="error_json">Error de formato</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="error_attach">Error al intentar añadir un producto</string>
+    <string name="error_upload">Error al subir</string>
+
+    <string name="error_connection">Error de conexión</string>
+    <string name="title_view">Componentes</string>
+    <string name="title_attach">Producto</string>
+
+    <string name="hint_barcode">Escribe el código de barras o QR</string>
+    <string name="no_components">No se han encontrado componentes</string>
+    <string name="no_products">No se han encontrado productos</string>
+    <string name="long_code">Código demasiado largo</string>
+
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_login">Entrar con Google</string>
+    <string name="action_language">Idioma</string>
+    <string name="error_duplicate">Producto ya existente</string>
+</resources>

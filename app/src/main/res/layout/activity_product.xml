@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProductActivity">
+
+
+    <ImageView
+        android:id="@+id/viewViewpImg"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="bottom"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewViewpImg"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/viewViewpImg"
+        app:layout_constraintTop_toTopOf="@+id/viewViewpImg"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/viewViewpImg"
+        app:layout_constraintEnd_toEndOf="@+id/viewViewpImg"
+        app:layout_constraintTop_toTopOf="@+id/viewViewpImg">
+
+        <ImageView
+            android:id="@+id/imgBrown2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgGreen2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgWhite2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgRed2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgGrey2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgBlue2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_light_null" />
+
+        <ImageView
+            android:id="@+id/imgYellow2"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_light_null" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewViewpImg" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView2"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerView2"
+        app:layout_constraintStart_toStartOf="@+id/recyclerView2"
+        app:layout_constraintTop_toTopOf="@+id/recyclerView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

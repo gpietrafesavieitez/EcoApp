@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_group">
+        <item
+            android:id="@+id/action_language"
+            android:title="@string/action_language" />
+        <item
+            android:id="@+id/action_logout"
+            android:title="@string/action_logout" />
+    </group>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title=""
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title=""
+        app:showAsAction="ifRoom" />
+</menu>
