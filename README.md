@@ -4,17 +4,16 @@
   <img height="155" width="475" src="images/logo.png">
 </p>
 
-## Requisitos mínimos / Minimum requirements 📋
-* Android 6.0 Marshmallow (API >= 23)
-
-## Requisitos recomendados / Recommended requirements 📋
-* Android 8.0 Oreo (API >= 26)
+## Requisitos / Requirements 📋
+* Minimum: Android 6.0 Marshmallow (API >= 23)
+* Recommended: Android 8.0 Oreo (API >= 26)
 
 ## Instalación / Installation 🚀
 * Descarga el último lanzamiento e instálalo en tu móvil / Download last release and install it on your smartphone.
-<p align="center"><a href="https://github.com/gpietrafesavieitez/EcoApp/releases/download/v0.1-alpha/EcoApp.apk">EcoApp v0.1-alpha</a></p>
+<p><a href="https://github.com/gpietrafesavieitez/EcoApp/releases/download/v0.1-alpha/EcoApp.apk">EcoApp v0.1-alpha</a></p>
 
 ## Desarrollado con / Developed with 🛠️
+* [Android Studio (Kotlin)](https://unity.com) - Plataforma principal de desarrollo / Main development platform (Android SDK modules)
 * [ZXing](https://unity.com) - Plataforma principal de desarrollo / Main development platform (Android SDK modules)
 * [Retrofit](https://developer.vuforia.com) - Kit de realidad aumentada / Augmented reality kit
 * [Firebase](https://assetstore.unity.com/packages/tools/input-management/simple-file-browser-98451) - Gestor de ficheros / File manager
