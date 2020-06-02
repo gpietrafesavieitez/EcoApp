@@ -59,6 +59,8 @@ We are aware that not everywhere is recycled the same so the final idea is also 
 ### Installation
 * Download last release and install it on your smartphone. You will need a Google Account.
 <p><a href="https://github.com/gpietrafesavieitez/EcoApp/releases/download/v0.1-alpha/EcoApp.apk">EcoApp v0.1-alpha</a></p>
+<p>:warning:This is a pre-release version for debugging and may be unstable so when using it maybe you will encounter some bugs, in that case please let us know. Thank you.</p>
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
