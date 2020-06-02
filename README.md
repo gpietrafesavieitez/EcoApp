@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/gpietrafesavieitez/EcoApp">
     <img src="images/logo.png" alt="Logo" width="425" height="125">
   </a>
   <br />
@@ -82,7 +82,6 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-:pray:
 * [CPR Daniel Castelao](https://www.danielcastelao.org)
 * [OpenFoodFacts](https://es.openfoodfacts.org)
 * [Codescanner](https://github.com/yuriy-budiyev/code-scanner)
