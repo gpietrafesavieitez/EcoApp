@@ -65,17 +65,17 @@ We are aware that not everywhere is recycled the same so the final idea is also 
 * Logging into the application
 
 <p align="center">
-  <img height="425" width="250" src="images/screenshots/screenshot_1.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_1.jpg">
 </p>
 
 * Once inside you can view products uploaded by other users, view details of each product to know how to recycle them, look for components, scan a product or upload one if it doesn't exist.
 
 <p align="center">
-  <img height="425" width="250" src="images/screenshots/screenshot_2.jpg">
-  <img height="425" width="250" src="images/screenshots/screenshot_3.jpg">
-  <img height="425" width="250" src="images/screenshots/screenshot_4.jpg">
-  <img height="425" width="250" src="images/screenshots/screenshot_5.jpg">
-  <img height="425" width="250" src="images/screenshots/screenshot_6.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_2.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_3.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_4.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_5.jpg">
+  <img height="480" width="270" src="images/screenshots/screenshot_6.jpg">
 </p>
 
 <!-- ROADMAP -->
@@ -84,8 +84,7 @@ See the [open issues](https://github.com/gpietrafesavieitez/EcoApp/issues) for a
 
 <!-- CONTRIBUTING -->
 ## Contributing 
-:octocat:
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** :octocat:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
