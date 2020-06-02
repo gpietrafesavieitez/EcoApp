@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/gpietrafesavieitez/EcoApp">
-    <img src="images/logo.png" alt="Logo" width="425" height="125">
+    <img src="images/logo/logo.png" alt="Logo" width="425" height="125">
   </a>
   <br />
   <p align="center">
@@ -62,8 +62,21 @@ We are aware that not everywhere is recycled the same so the final idea is also 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-_For more examples, please refer to the [Documentation](https://example.com)_
+* Logging into the application
+
+<p align="center">
+  <img height="425" width="250" src="images/screenshots/screenshot_1.jpg">
+</p>
+
+* Once inside you can view products uploaded by other users, view details of each product to know how to recycle them, look for components, scan a product or upload one if it doesn't exist.
+
+<p align="center">
+  <img height="425" width="250" src="images/screenshots/screenshot_2.jpg">
+  <img height="425" width="250" src="images/screenshots/screenshot_3.jpg">
+  <img height="425" width="250" src="images/screenshots/screenshot_4.jpg">
+  <img height="425" width="250" src="images/screenshots/screenshot_5.jpg">
+  <img height="425" width="250" src="images/screenshots/screenshot_6.jpg">
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
