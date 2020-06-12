@@ -19,7 +19,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
@@ -69,30 +68,14 @@ class AttachFragment : Fragment() {
         txtProductCode.setText("")
     }
 
-    override fun onResume() {
-        super.onResume()
-        getAllComponents()
-    }
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         Log.d(TAG, "I'm working")
         sharedPreferences = requireActivity().getSharedPreferences("user", Context.MODE_PRIVATE)
         listView = requireActivity().findViewById(R.id.multiple_list_view)
+        getAllComponents()
         fabCamera.setOnClickListener {
-            if (ContextCompat.checkSelfPermission(
-                    context as Context,
-                    Manifest.permission.CAMERA
-                ) == PackageManager.PERMISSION_DENIED
-            ) {
-                ActivityCompat.requestPermissions(
-                    requireActivity(),
-                    arrayOf(Manifest.permission.CAMERA),
-                    MainActivity.CAMERA_REQUEST
-                )
-            } else {
-                openCamera()
-            }
+            openCamera()
         }
         fabAttach.setOnClickListener {
             if (isProductReady()) {
@@ -104,13 +87,9 @@ class AttachFragment : Fragment() {
         }
     }
 
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
-    ) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == 123) {
+        if (requestCode == MainActivity.CAMERA_REQUEST) {
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 openCamera()
             } else {
@@ -169,22 +148,26 @@ class AttachFragment : Fragment() {
     }
 
     private fun openCamera() {
-        val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-        if (intent.resolveActivity(requireActivity().packageManager) != null) {
-            var photoFile: File? = null
-            try {
-                photoFile = createImage()
-            } catch (e: IOException) {
-                e.printStackTrace()
-            }
-            if (photoFile != null) {
-                val photoUri = FileProvider.getUriForFile(
-                    requireActivity(),
-                    "com.example.ecoapp.fileprovider",
-                    photoFile
-                )
-                intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri)
-                startActivityForResult(intent, MainActivity.CAMERA_REQUEST)
+        if (ContextCompat.checkSelfPermission(requireActivity(), Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+            requestPermissions(arrayOf(Manifest.permission.CAMERA), MainActivity.CAMERA_REQUEST)
+        } else {
+            val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+            if (intent.resolveActivity(requireActivity().packageManager) != null) {
+                var photoFile: File? = null
+                try {
+                    photoFile = createImage()
+                } catch (e: IOException) {
+                    e.printStackTrace()
+                }
+                if (photoFile != null) {
+                    val photoUri = FileProvider.getUriForFile(
+                        requireActivity(),
+                        "com.example.ecoapp.fileprovider",
+                        photoFile
+                    )
+                    intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri)
+                    startActivityForResult(intent, MainActivity.CAMERA_REQUEST)
+                }
             }
         }
     }

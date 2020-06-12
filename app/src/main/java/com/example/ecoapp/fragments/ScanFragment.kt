@@ -11,7 +11,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -50,8 +49,7 @@ class ScanFragment : Fragment() {
                 Manifest.permission.CAMERA
             ) == PackageManager.PERMISSION_DENIED
         ) {
-            ActivityCompat.requestPermissions(
-                requireActivity(),
+            requestPermissions(
                 arrayOf(Manifest.permission.CAMERA),
                 MainActivity.CAMERA_REQUEST
             )
@@ -74,13 +72,9 @@ class ScanFragment : Fragment() {
         }
     }
 
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
-    ) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == 123) {
+        if (requestCode == MainActivity.CAMERA_REQUEST) {
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 startScanner()
             } else {
