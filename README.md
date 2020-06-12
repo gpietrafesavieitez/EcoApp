@@ -59,10 +59,10 @@ We are aware that not everywhere is recycled the same so the final idea is also 
 
 ### Built with
 * [EcoAppApi](https://github.com/palonsovazquez/EcoAppApi) - EcoApp API built in Python with Django REST Framework.
-* [Android Studio](https://unity.com) - Main development platform using Kotlin as the programming language.
+* [Android Studio](https://developer.android.com/studio) - Main development platform using Kotlin as the programming language.
 * [Zxing](https://github.com/zxing/zxing) - Core library for scanning barcode/QR.
 * [Retrofit & OkHttp](https://github.com/square/retrofit) - HTTP client core libraries.
-* [Firebase](https://firebase.google.com/1) - OAuth 2.0 Authentication API.
+* [Firebase](https://firebase.google.com) - OAuth 2.0 Authentication API.
 * [Glide](https://github.com/bumptech/glide) - Media managment and image loading/caching library.
 
 <!-- GETTING STARTED -->
